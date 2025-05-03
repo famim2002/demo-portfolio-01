@@ -7,6 +7,7 @@ import Discuss from "../components/home/Discuss";
 import ServicesMy from "../components/home/ServicesMy";
 import BlogMy from "../components/home/BlogMy";
 import Clients from "../components/home/Clients"
+import Testimonial from "../components/home/Testimonial"
 
 const Home = () => {
   return (
@@ -18,7 +19,8 @@ const Home = () => {
       <Discuss />
       <BlogMy />
       <ServicesMy />
-      <Clients/>
+      <Clients />
+      <Testimonial/>
     </>
   );
 };
