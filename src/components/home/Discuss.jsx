@@ -14,7 +14,7 @@ const Discuss = () => {
           >
             Do you have Project Idia? Let's discuss your project!
           </h2>
-          <p className="text-[20px] text-stone-200 w-lg text-center m-auto">
+          <p className="text-[20px] text-stone-200 max-w-lg text-center m-auto">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </p>

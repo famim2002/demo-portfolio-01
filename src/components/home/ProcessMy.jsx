@@ -8,7 +8,7 @@ const ProcessMy = () => {
         <div className="container">
           <div className="flex flex-col justify-between gap-10 lg:flex-row">
             <div>
-              <h2 className="text-[38px] font-semibold text-primary  lg:max-w-lg">
+              <h2 className="text-[48px] font-semibold text-primary  lg:max-w-lg">
                 Work Process
               </h2>
               <p className="text-[18px] text-secondary font-medium lg:max-w-md pt-[35px] pb-[10 px]">
