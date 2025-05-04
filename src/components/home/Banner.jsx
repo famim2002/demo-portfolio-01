@@ -1,5 +1,6 @@
 import React from "react";
 import BannerCards from "./BannerCards";
+import { FaArrowRight } from "react-icons/fa6";
 
 const Banner = () => {
   return (
@@ -19,7 +20,7 @@ const Banner = () => {
                            sm:text-[54px] 
                            md:text-[72px] md:leading-[84px]"
               >
-                Hello, I’m Famim Hayat
+                Hello, I’m Danila Dani
               </h1>
               <p className="text-[18px] font-regular text-secondary  max-w-2xl py-[28px]">
                 I'm a Freelance UI/UX Designer and Developer based in London,

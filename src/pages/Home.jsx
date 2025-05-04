@@ -8,6 +8,8 @@ import ServicesMy from "../components/home/ServicesMy";
 import BlogMy from "../components/home/BlogMy";
 import Clients from "../components/home/Clients"
 import Testimonial from "../components/home/Testimonial"
+import FormMy from "../components/home/FormMy"
+import Footer from "../components/home/Footer"
 
 const Home = () => {
   return (
@@ -20,7 +22,9 @@ const Home = () => {
       <BlogMy />
       <ServicesMy />
       <Clients />
-      <Testimonial/>
+      <Testimonial />
+      <FormMy />
+      <Footer/>
     </>
   );
 };

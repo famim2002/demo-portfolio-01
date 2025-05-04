@@ -1,4 +1,5 @@
 import React from 'react'
+ import { FaArrowRight } from "react-icons/fa6";
 
 const Discuss = () => {
   return (
@@ -18,7 +19,7 @@ const Discuss = () => {
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </p>
-          <button className="btn_dark m-auto pt-[25px]">Let’s work Together</button>
+          <button className="btn_dark m-auto pt-[25px] flex items-center gap-3">Let’s work Together <FaArrowRight /></button>
         </div>
       </div>
     </section>

@@ -19,6 +19,7 @@ const PortfolioMy = () => {
               title="UI-UX DESIGN"
               tag="Product Admin Dashboard"
               descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
+              
             />
             <PortfolioCards
               image="/portfolio_img_2.png"

@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowRight } from "react-icons/fa6";
 
 const PortfolioCards = ({image ,title, tag , descript}) => {
   return (
@@ -14,7 +15,10 @@ const PortfolioCards = ({image ,title, tag , descript}) => {
             Vivamus eleifend convallis ante, non pharetra libero molestie
             laoreet. Donec id imperdiet lacus.
           </p>
-          <button className="btn_light">Case Study</button>
+          <button className="btn_light flex items-center gap-4">
+            Case Study
+            <FaArrowRight />
+          </button>
         </div>
       </div>
     </>

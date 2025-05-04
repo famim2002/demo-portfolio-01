@@ -39,3 +39,8 @@ cursor: pointer;
    border-radius: 5px;
    cursor: pointer;
 }
+
+
+a{
+  display: inline-block !important;
+}

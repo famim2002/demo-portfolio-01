@@ -1,4 +1,11 @@
 import React from "react";
+import { GoDownload } from "react-icons/go";    
+import { Link } from "react-router"
+import SocialBar from "./SocialBar"
+
+
+
+
 
 const AboutMe = () => {
   return (
@@ -26,8 +33,12 @@ const AboutMe = () => {
             >
               <img className="w-2/3" src="/about_img.png" alt="model_image" />
             </div>
+
+            <div className="">
+              <SocialBar />
+            </div>
+
             <div className="flex justify- center lg:justify-end  lg:w-1/2">
-              {" "}
               <div className=" flex  flex-col justify-center  ">
                 <h2 className="text-[38px] font-semibold text-primary  lg:max-w-lg">
                   I am Professional User Experience Designer
@@ -43,7 +54,9 @@ const AboutMe = () => {
                 </p>
                 <div className="flex gap-2">
                   <button className="btn_dark">My Project</button>
-                  <button className="btn_light">Download CV</button>
+                  <button className="btn_light flex items-center gap-4">
+                    <GoDownload /> Download CV
+                  </button>
                 </div>
               </div>
             </div>

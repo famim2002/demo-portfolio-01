@@ -3,7 +3,7 @@ import React from 'react'
 const BannerCards = ({title , descrip}) => {
   return (
     <>
-      <div className="px-[60px] py-[20px] bg-light_brand">
+      <div className="px-[60px] py-[20px] bg-light_brand  ">
         <h2 className="text-[30px] font-semibold text-[#424E60] text-center">
           {title}
         </h2>
