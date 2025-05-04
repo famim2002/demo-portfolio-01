@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-const Nav = () => {
+const NavBar = () => {
   return (
     <>
       
       
-      {/* <nav className="py-5">
+     <nav className="py-5">
         <div className="container">
           <div className="flex justify-between">
             <Link to="/">
@@ -41,12 +41,12 @@ const Nav = () => {
             </div>
           </div>
         </div>
-      </nav>    */}
+      </nav>    
 
 
     </>
   );
 }
 
-export default Nav;
+export default NavBar;
 
