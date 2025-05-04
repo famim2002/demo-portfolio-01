@@ -1,11 +1,10 @@
 import React from 'react'
+import ServicesMy from '../components/home/ServicesMy'
 
 const Services = () => {
   return (
     <>
-      <h2 className="text-6xl font-semibold text-center py-80">
-        this is service page
-      </h2>
+     <ServicesMy/>
     </>
   );
 }

@@ -1,6 +1,16 @@
 import React from "react";
 import ProcessCard from "./ProcessCard";
 
+import { FaCalendarAlt } from "react-icons/fa";
+import { IoAnalyticsSharp } from "react-icons/io5";
+import { LuPencil } from "react-icons/lu";
+import { FaLaptop } from "react-icons/fa";
+
+{/* <FaCalendarAlt />
+<IoAnalyticsSharp />
+<LuPencil />
+<FaLaptop /> */}
+
 const ProcessMy = () => {
   return (
     <>
@@ -30,6 +40,7 @@ const ProcessMy = () => {
                 <ProcessCard
                   title="2. Analyze"
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
+                  
                 />
               </div>
               <div className="flex flex-col gap-4 justify-center sm:flex-row ">

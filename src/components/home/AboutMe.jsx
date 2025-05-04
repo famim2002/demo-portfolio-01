@@ -1,9 +1,6 @@
 import React from "react";
 import { GoDownload } from "react-icons/go";    
-import { Link } from "react-router"
 import SocialBar from "./SocialBar"
-
-
 
 
 
@@ -16,7 +13,7 @@ const AboutMe = () => {
       >
         <div className="container">
           <div
-            className="flex  flex-col 
+            className="px-3 flex  flex-col 
                        lg:flex-row lg:justify-between 
                        xl:px-[100px] xl:py-[100px] bg-white rounded-2xl"
           >
@@ -34,8 +31,11 @@ const AboutMe = () => {
               <img className="w-2/3" src="/about_img.png" alt="model_image" />
             </div>
 
-            <div className="">
-              <SocialBar />
+            <div className="relative">
+              <SocialBar
+                 
+                
+              />
             </div>
 
             <div className="flex justify- center lg:justify-end  lg:w-1/2">

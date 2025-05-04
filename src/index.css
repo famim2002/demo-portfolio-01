@@ -20,24 +20,32 @@ body {
 
 .btn_dark{
   width: fit-content;
-padding: 12px 24px;
-font-size: 20px;
-font-weight: 400;
-color: white;
-background-color: #a53dff;
-border-radius: 5px;
-cursor: pointer;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  background-color: #a53dff;
+  border-radius: 5px;
+  cursor: pointer;
+
 } 
 
 .btn_light{
   width: fit-content;
-   padding: 12px 24px;
-   font-size: 22px;
-   font-weight: 600;
-   color: #a53dff;
-   border: 1px solid #a53dff;
-   border-radius: 5px;
-   cursor: pointer;
+  padding: 12px 24px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #a53dff;
+  border: 1px solid #a53dff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all linear .2s;
+}
+
+
+
+.btn_light:hover{
+ background-color:#edd8ffdb ;
 }
 
 
