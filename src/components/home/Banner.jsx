@@ -1,11 +1,10 @@
 import React from "react";
 import BannerCards from "./BannerCards";
-import { FaArrowRight } from "react-icons/fa6";
 
 const Banner = () => {
   return (
     <>
-      <section className="overflow-hidden">
+      <section className="px-4 overflow-hidden">
         <div className="container">
           <div
             className="flex flex-col justify-between 

@@ -57,34 +57,34 @@ const FormMy = () => {
               <input
                 type="text"
                 placeholder="name"
-                className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2 focus:border-brand"
+                className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2  focus:border-brand"
               />
               <input
                 type="email"
                 placeholder="email"
-                className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2 focus:border-brand"
+                className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2  focus:border-brand"
               />
               <input
                 type="text"
                 placeholder="location"
-                className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2 focus:border-brand"
+                className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2  focus:border-brand"
               />
               <div className="flex flex-col sm:flex-row gap-4">
                 <input
                   type="text"
                   placeholder="budget"
-                  className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2 focus:border-brand"
+                  className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2  focus:border-brand"
                 />
                 <input
                   type="text"
                   placeholder="subject"
-                  className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2 focus:border-brand"
+                  className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2  focus:border-brand"
                 />
               </div>
               <input
                 type="text"
                 placeholder="massage"
-                className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2 focus:border-brand"
+                className="border-b border-stone-300 px-3 py-4  focus:outline-0 focus:border-b-2  focus:border-brand"
               />
             </div>
             <button className="btn_dark mt-8 flex items-center gap-3">

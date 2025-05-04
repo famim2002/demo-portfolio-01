@@ -27,7 +27,7 @@ body {
   background-color: #a53dff;
   border-radius: 5px;
   cursor: pointer;
-
+  transition: all linear .2s;
 } 
 
 .btn_light{
@@ -42,6 +42,9 @@ body {
   transition: all linear .2s;
 }
 
+.btn_dark:hover{
+box-shadow: #a43dffaa 0px 5px, #a43dff7a 0px 10px, #a43dff41 0px 15px, #a43dff31 0px 20px, #a43dff15 0px 25px;
+}
 
 
 .btn_light:hover{

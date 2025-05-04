@@ -6,7 +6,7 @@ const Nav = () => {
     <>
       
       
-      <nav className="py-5">
+      {/* <nav className="py-5">
         <div className="container">
           <div className="flex justify-between">
             <Link to="/">
@@ -41,7 +41,7 @@ const Nav = () => {
             </div>
           </div>
         </div>
-      </nav>   
+      </nav>    */}
 
 
     </>

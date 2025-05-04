@@ -8,8 +8,8 @@ const AboutMe = () => {
   return (
     <>
       <section
-        className="px-3 pb-[100px] pt-[100px]
-                   lg:pt-[220px] overflow-hidden "
+        className="px-3 pb-[100px] pt-[80px]
+                   lg:pt-[100px] overflow-hidden "
       >
         <div className="container">
           <div

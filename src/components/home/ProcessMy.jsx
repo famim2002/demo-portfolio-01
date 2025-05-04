@@ -14,10 +14,13 @@ import { FaLaptop } from "react-icons/fa";
 const ProcessMy = () => {
   return (
     <>
-      <section className="px-5 pt-[250px] bg-[#F0F1F3] pb-[200px]">
+      <section
+        className="px-5 py-[120px] bg-[#F0F1F3] 
+      lg:py-[180px]"
+      >
         <div className="container">
           <div className="flex flex-col justify-between gap-10 lg:flex-row">
-            <div>
+            <div className="flex flex-col justify-center">
               <h2 className="text-[48px] font-semibold text-primary  lg:max-w-lg">
                 Work Process
               </h2>
@@ -33,24 +36,36 @@ const ProcessMy = () => {
             </div>
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-4 justify-center sm:flex-row ">
-                <ProcessCard
+                <ProcessCard 
                   title="1. Research"
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
+                  icon={
+                    <FaCalendarAlt className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all hover:bg-brand  hover:text-white  " />
+                  }
                 />
-                <ProcessCard
+
+                <ProcessCard 
                   title="2. Analyze"
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
-                  
+                  icon={
+                    <IoAnalyticsSharp className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all hover:bg-brand  hover:text-white  " />
+                  }
                 />
               </div>
               <div className="flex flex-col gap-4 justify-center sm:flex-row ">
-                <ProcessCard
+                <ProcessCard 
                   title="3. Design "
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
+                  icon={
+                    <LuPencil className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all hover:bg-brand  hover:text-white  " />
+                  }
                 />
-                <ProcessCard
+                <ProcessCard 
                   title="4. Launch"
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
+                  icon={
+                    <FaLaptop className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all hover:bg-brand  hover:text-white  " />
+                  }
                 />
               </div>
             </div>

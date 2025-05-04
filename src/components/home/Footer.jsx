@@ -3,9 +3,9 @@ import { Link } from "react-router"
 
 const Footer = () => {
   return (
-    <footer className="py-25 bg-primary">
+    <footer className="px-3 py-25 bg-primary">
       <div className="container">
-        <div className="flex flex-col justify-between  items-center  gap-15  lg:flex-row lg:gap-0">
+        <div className="flex flex-col justify-between  items-center  gap-15  xl:flex-row lg:gap-0">
           <div>
             <Link to="/">
               <img src="/Logo.png" alt="" />
