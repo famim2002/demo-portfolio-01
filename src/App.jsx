@@ -1,11 +1,11 @@
 import { Routes, Route, BrowserRouter } from "react-router";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import Layout from "./components/home/layout/Index";
 import Process from "./pages/Process";
 import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import Services from "./pages/Services";
+import Layout from "./components/home/Layout/Index"
 
 function App() {
   return (
