@@ -1,5 +1,7 @@
 import React from 'react'
 import BlogCard from './BlogCard'
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+
 
 const BlogMy = () => {
   return (

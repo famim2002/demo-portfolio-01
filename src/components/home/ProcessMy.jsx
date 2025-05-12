@@ -36,35 +36,35 @@ const ProcessMy = () => {
             </div>
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-4 justify-center sm:flex-row ">
-                <ProcessCard 
+                <ProcessCard
                   title="1. Research"
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
                   icon={
-                    <FaCalendarAlt className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all hover:bg-brand  hover:text-white  " />
+                    <FaCalendarAlt className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all group-hover:bg-brand  group-hover:text-white  " />
                   }
                 />
 
-                <ProcessCard 
+                <ProcessCard
                   title="2. Analyze"
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
                   icon={
-                    <IoAnalyticsSharp className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all hover:bg-brand  hover:text-white  " />
+                    <IoAnalyticsSharp className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all group-hover:bg-brand  group-hover:text-white  " />
                   }
                 />
               </div>
               <div className="flex flex-col gap-4 justify-center sm:flex-row ">
-                <ProcessCard 
+                <ProcessCard
                   title="3. Design "
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
                   icon={
-                    <LuPencil className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all hover:bg-brand  hover:text-white  " />
+                    <LuPencil className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all group-hover:bg-brand  group-hover:text-white  " />
                   }
                 />
-                <ProcessCard 
+                <ProcessCard
                   title="4. Launch"
                   descript="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu."
                   icon={
-                    <FaLaptop className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all hover:bg-brand  hover:text-white  " />
+                    <FaLaptop className="text-[60px] text-brand mb-4 p-4 bg-light_brand rounded-xl transition-all group-hover:bg-brand  group-hover:text-white  " />
                   }
                 />
               </div>

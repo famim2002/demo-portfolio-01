@@ -21,7 +21,7 @@ const FormMy = () => {
               There are many variations of passages of Lorem Ipsu available. but
               the majority have suffered alte.
             </p>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 ">
               <FormCards title="Address" descript="New Mexico 31134 My" />
               <FormCards title="Email:" descript=" mymail@mail.com" />
               <FormCards title="Call Me Now:" descript="00-1234 00000" />

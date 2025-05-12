@@ -12,48 +12,44 @@ const PortfolioMy = () => {
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration.
         </p>
-        <div className="flex flex-col gap-20 items-center">
-          <div className="flex flex-col lg:flex-row justify-between gap-10">
-            <PortfolioCards
-              image="/portfolio_img_1.png"
-              title="UI-UX DESIGN"
-              tag="Product Admin Dashboard"
-              descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
-              
-            />
-            <PortfolioCards
-              image="/portfolio_img_2.png"
-              title="UI-UX DESIGN"
-              tag="Product Admin Dashboard"
-              descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
-            />
-            <PortfolioCards
-              image="/portfolio_img_3.png"
-              title="UI-UX DESIGN"
-              tag="Product Admin Dashboard"
-              descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
-            />
-          </div>
-          <div className="flex flex-col lg:flex-row justify-between gap-10">
-            <PortfolioCards
-              image="/portfolio_img_4.png"
-              title="UI-UX DESIGN"
-              tag="Product Admin Dashboard"
-              descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
-            />
-            <PortfolioCards
-              image="/portfolio_img_5.png"
-              title="UI-UX DESIGN"
-              tag="Product Admin Dashboard"
-              descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
-            />
-            <PortfolioCards
-              image="/portfolio_img_6.png"
-              title="UI-UX DESIGN"
-              tag="Product Admin Dashboard"
-              descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
-            />
-          </div>
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-20 justify-items-center">
+          <PortfolioCards
+            image="/portfolio_img_1.png"
+            title="UI-UX DESIGN"
+            tag="Product Admin Dashboard"
+            descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
+          />
+          <PortfolioCards
+            image="/portfolio_img_2.png"
+            title="UI-UX DESIGN"
+            tag="Product Admin Dashboard"
+            descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
+          />
+          <PortfolioCards
+            image="/portfolio_img_3.png"
+            title="UI-UX DESIGN"
+            tag="Product Admin Dashboard"
+            descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
+          />
+
+          <PortfolioCards
+            image="/portfolio_img_4.png"
+            title="UI-UX DESIGN"
+            tag="Product Admin Dashboard"
+            descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
+          />
+          <PortfolioCards
+            image="/portfolio_img_5.png"
+            title="UI-UX DESIGN"
+            tag="Product Admin Dashboard"
+            descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
+          />
+          <PortfolioCards
+            image="/portfolio_img_6.png"
+            title="UI-UX DESIGN"
+            tag="Product Admin Dashboard"
+            descript="Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus."
+          />
         </div>
       </div>
     </section>

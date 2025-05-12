@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <>
       
-       
+{/*       
      <nav className="py-5">
         <div className="container">
           <div className="flex justify-between">
@@ -41,7 +41,7 @@ const NavBar = () => {
             </div>
           </div>
         </div>
-      </nav>     
+      </nav>     */}
 
 
     </>
