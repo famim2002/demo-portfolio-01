@@ -2,7 +2,6 @@
 
 @utility container{
     margin: auto;
-
 }
 
 @theme {
@@ -13,9 +12,12 @@
 }
 
 body {
-  background-image: url(/public/linear-background.png);
-
+  background-image: url(/public/linear-background.png);  
   background-repeat: no-repeat;
+}
+
+a{
+  display: inline-block !important;
 }
 
 .btn_dark{
@@ -46,12 +48,7 @@ body {
 box-shadow: #a43dffaa 0px 5px, #a43dff7a 0px 10px, #a43dff41 0px 15px, #a43dff31 0px 20px, #a43dff15 0px 25px;
 }
 
-
 .btn_light:hover{
  background-color:#edd8ffdb ;
 }
 
-
-a{
-  display: inline-block !important;
-}

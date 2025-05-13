@@ -1,9 +1,35 @@
 import React from 'react'
 import BlogCard from './BlogCard'
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 
 const BlogMy = () => {
+  const settings = {
+    
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024, // screen width < 1024px
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 640, // screen width < 640px
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <section className="py-[50px] px-4">
       <div className="container">
@@ -15,33 +41,37 @@ const BlogMy = () => {
           the majority have suffered alteration.
         </p>
 
-        <div className=" flex gap-3 flex-col sm:flex-row md:gap-8 justify-center">
-          <div className="flex flex-col  gap-3 lg:flex-row  md:gap-8">
-            <BlogCard
-              image="/blog_1.png"
-              title="22 Oct, 2020 / 246"
-              descript="Lorem ipsum dolor sit consea. Nulla purus arcu"
-            />
-            <BlogCard
-              image="/blog_2.png"
-              title="22 Oct, 2020 / 246"
-              descript="Lorem ipsum dolor sit consea. Nulla purus arcu"
-            />
-          </div>
-          <div className="flex flex-col  gap-3 lg:flex-row  md:gap-8">
-            <BlogCard
-              image="/blog_3.png"
-              title="22 Oct, 2020 / 246"
-              descript="Lorem ipsum dolor sit consea. Nulla purus arcu"
-            />
-            <BlogCard
-              image="/blog_4.png"
-              title="22 Oct, 2020 / 246"
-              descript="Lorem ipsum dolor sit consea. Nulla purus arcu"
-            />
-          </div>
+        <div className="px-6">
+          <Slider {...settings} >
+            <div className='grid grid-cols-2'>
+              <BlogCard
+                image="/blog_1.png"
+                title="22 Oct, 2020 / 246"
+                descript="Lorem ipsum dolor sit consea. Nulla purus arcu"
+              />
+            
+              <BlogCard
+                image="/blog_2.png"
+                title="22 Oct, 2020 / 246"
+                descript="Lorem ipsum dolor sit consea. Nulla purus arcu"
+              />
+            
+              <BlogCard
+                image="/blog_3.png"
+                title="22 Oct, 2020 / 246"
+                descript="Lorem ipsum dolor sit consea. Nulla purus arcu"
+              />
+          
+              <BlogCard
+                image="/blog_4.png"
+                title="22 Oct, 2020 / 246"
+                descript="Lorem ipsum dolor sit consea. Nulla purus arcu"
+              />
+            </div>
+          </Slider>
         </div>
       </div>
+ 
     </section>
   );
 };
