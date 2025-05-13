@@ -65,7 +65,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="px-[24px] py-[12px] font-[] text-white text-[20px] transition-all active:bg-light_brand active:rounded-lg "
-                  to="/services"
+                  to="/Contact"
                 >
                   Contact
                 </Link>

@@ -2,7 +2,10 @@ import React from 'react'
 
 const BlogCard = ({image , title , descript}) => {
     return (
-      <div className="w-fit  flex flex-col rounded-t-xl my-16 -z-100 items-center rounded-b-2xl  m-auto cursor-pointer transition-all hover:shadow-xl">
+      <div
+        className="w-fit  flex flex-col rounded-t-xl my-16 mx-auto items-center rounded-b-2xl  m-auto cursor-pointer transition-all hover:shadow-xl
+      "
+      >
         <div>
           <img className="rounded-t-2xl" src={image} alt="" />
         </div>

@@ -52,3 +52,25 @@ box-shadow: #a43dffaa 0px 5px, #a43dff7a 0px 10px, #a43dff41 0px 15px, #a43dff31
  background-color:#edd8ffdb ;
 }
 
+.slider_button{
+  position: absolute;
+  color: #fff;
+  width: fit-content;
+  padding: 10px;
+  background-color: #b471ee;
+  border-radius: 50px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: all linear .2s;
+}
+
+.slider_button:hover{
+  background-color: #a53dff ;
+}
+
+
+.slick-dots .slick-active div {
+  background-color: #132238 !important; 
+  width: 30px;
+  
+}

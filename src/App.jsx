@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import Services from "./pages/Services";
 import Layout from "./components/home/Layout/Index";
+import FormMy from "./components/home/FormMy"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/Contact" element={<FormMy/>} />
         </Route>
         <Route path="/*" element={<Error />} />
       </Routes>
