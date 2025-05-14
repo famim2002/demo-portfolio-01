@@ -9,7 +9,7 @@ import BlogMy from "../components/home/BlogMy";
 import Clients from "../components/home/Clients"
 import Testimonial from "../components/home/Testimonial"
 import FormMy from "../components/home/FormMy"
-import Footer from "../components/home/Layout/Footer"
+
 
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
       <Clients />
       <Testimonial />
       <FormMy />
-      <Footer/>
+      
     </>
   );
 };
