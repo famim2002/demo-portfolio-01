@@ -3,9 +3,9 @@ import ServicesMy from '../components/home/ServicesMy'
 
 const Services = () => {
   return (
-    <>
+    <div>
      <ServicesMy/>
-    </>
+    </div>
   );
 }
 
