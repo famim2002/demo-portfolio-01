@@ -3,9 +3,9 @@ import ProcessMy from "../components/home/ProcessMy"
 
 const Process = () => {
   return (
-    <>
+    <div>
      <ProcessMy/>
-    </>
+    </div>
   );
 };
 
